@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Cuprum&family=Festive&family=Kaushan+Script&family=Quando&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Concert One',
+		cursive;
+	font-family: 'Cuprum',
+		sans-serif;
+	font-family: 'Festive',
+		cursive;
+	font-family: 'Kaushan Script',
+		cursive;
+	font-family: 'Quando',
+		serif;
+}
+
+body {
+
+	background: #9ED0C9;
+	height: 637px;
+	background-image: url(bg.png);
+	background-size: cover;
+}
+
+.text {
+	margin-left: 100px;
+	height: 600px;
+	margin-top: 0px;
+}
+
+.text-heading {
+	height: 100px;
+	padding-top: 250px;
+}
+
+.heading2 {
+	font-size: 46px;
+	font-family: 'Quando';
+	letter-spacing: 5px;
+	color: #415164;
+}
+
+.padding2 {
+	padding-bottom: 20px;
+}
+
+.text-heading p {
+	color: white;
+}
+
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: #415164;
+	padding: 25px;
+	border-radius: 15px;
+	float: left;
+	margin-left: 300px;
+}
+
+.main h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background-color: #3D4049;
+	color: white;
+	border-radius: 25px;
+}
+
+.btn-greey {
+	background-color: #BBBFC6;
+	color: #607d8b;
+}
+
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	background-color: #C1D798;
+	color: white;
+	border-radius: 25px;
+	text-align: right;
+}

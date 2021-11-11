@@ -1,0 +1,41 @@
+/* Responsive for HP */
+@media all and (max-width: 670px) {
+    body {
+        height: 600px;
+    }
+
+    .text {
+        margin: 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .text-heading {
+        padding-top: 50px;
+    }
+
+    .heading2 {
+        font-size: 26px;
+    }
+
+    .text-heading p {
+        font-size: 10px;
+    }
+
+    .main {
+        position: none;
+        margin: 0 auto;
+        margin-top: 50px;
+        background-color: rgb(109, 193, 204);
+    }
+
+    .main h2 {
+        font-size: 20px;
+    }
+
+    .heading2 {
+        padding-bottom: 0px;
+    }
+}
+
+/* End */
